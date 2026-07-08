@@ -15,7 +15,9 @@ the findings and proceed with the static catalog — never silently skip.
    - https://tropes.fyi/tropes-md — community-maintained trope directory
    - https://en.wikipedia.org/wiki/Wikipedia:Signs_of_AI_writing — editor-maintained,
      model-era aware
-2. **Search current chatter** (WebSearch, current month in the query):
+2. **Search current chatter** (WebSearch; date the queries deliberately — month
+   granularity for the fast-moving writing-tells discourse, year for the slower
+   marketing-slop discourse):
    - "AI writing tells <month> <year>"
    - "AI slop marketing <year>"
    - Skim any surfaced HN / r/marketing / X threads — these communities name new tells

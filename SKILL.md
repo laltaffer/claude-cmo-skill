@@ -32,9 +32,11 @@ State the mode in your first reply. The user can override with one word.
   All stages.
 - **fast** — single asset (a page's copy, an email, a post, an announcement) for a
   project that already has `.agents/product-marketing.md`. Confirm the context doc is
-  current, then CRAFT → REVIEW → SHIP.
-- **audit** — existing copy or marketing under review. Apply the REVIEW stage to what's
-  already live: trope scan, seven sweeps, fresh sweep. Findings fixed or explicitly
+  current **and a research brief exists** under the project's `docs/` — if there's no
+  brief, drop back to RESEARCH scoped to the asset before writing. Then CRAFT →
+  REVIEW → SHIP.
+- **audit** — existing copy or marketing under review. Apply the REVIEW stage **in
+  full — all four checks** — to what's already live. Findings fixed or explicitly
   deferred; no rewrite beyond the findings without asking.
 
 ## The stages (full mode)
@@ -60,7 +62,8 @@ Record all answers in the context doc's Brand Voice section.
 
 ### 2. RESEARCH — what do real people actually say?
 Load pack `customer-research` and `competitors`, routed by
-[research-playbook.md](research-playbook.md) (venues by audience type; VoC extraction).
+[research-playbook.md](research-playbook.md) (venues by audience type; the extraction
+method itself lives in the pack skill).
 Verbatim customer language is the deliverable — exact phrases, with sources; never
 fabricated. **Artifact:** research brief (pains, triggers, objections, exact language,
 competitive angle map) saved under the project's `docs/`. **Gate:** the user approves
