@@ -9,9 +9,8 @@ strategic posture the 2026 sentiment data forces.
 ## Venue routing by audience type
 
 Pick the row that matches the project's audience, spend research time where the row
-points, and capture exact phrases with links. Add rows for your own recurring audience
-types. Two rules: never fabricate or paraphrase a quote into existence, and never
-post/engage from research accounts — read only.
+points, and capture exact phrases with links. Add rows for your own recurring audience types. Two rules: never fabricate or paraphrase
+a quote into existence, and never post/engage from research accounts — read only.
 
 **SaaS / tech / founders:** competitors' G2 & Capterra reviews (1–3 star reviews are
 the gold), Hacker News (search via hn.algolia.com), the niche's subreddits, competitor
@@ -40,7 +39,8 @@ AI-generated ads feel less authentic and find heavy-AI brands "cringey"; **73%**
 an ad less if they suspect AI made it; **63%** are less likely to buy from a brand using
 AI-generated ads; **52%** stop reading the moment they suspect text is AI-generated
 (Bynder). "AI slop" is the year's defining insult; "100% human" is an emerging brand
-position. Audiences now scan for machine-made tells even when unsure.
+position (iHeartMedia: 90% of listeners want human-made media). Audiences now scan for
+machine-made tells even when unsure.
 
 What this means for how we work — strategy, not just style:
 

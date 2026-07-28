@@ -33,6 +33,16 @@ by file path at the moment of use, so your session skill list stays clean and
 trigger-matching can never pick a marketing skill by accident. Update it anytime with
 `git -C ~/.claude/marketing-pack pull`.
 
+## Companion skills
+
+Same shape, same gate discipline, built to hand work to each other:
+
+- **[/cto](https://github.com/laltaffer/claude-cto-skill)** — the engineering pipeline
+  SHIP hands web copy to.
+- **[/uxr](https://github.com/laltaffer/claude-uxr-skill)** — the research pipeline.
+  It owns evidence-for-product-decisions; /cmo RESEARCH owns voice-of-customer for
+  copy, and the venue table here is the one both use.
+
 ## Customize
 
 - `voice-and-tropes.md` — "The owner's taste layer" section is a template; encode your

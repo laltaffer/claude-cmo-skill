@@ -61,6 +61,8 @@ repeats, not on first use:
   producing a monotonous cadence readers now name explicitly.
 - **Transition-word stacking** — "furthermore," "moreover," "additionally" as
   paragraph glue.
+- **Fake-profound closers** — endings reaching for unearned profundity ("The future
+  isn't coming. It's already here.").
 
 ## Visual slop (flag and route, don't fix here)
 
@@ -101,6 +103,15 @@ rules that belong (edit these to yours):
 
 ## Changelog
 
+- **2026-07-26** — Fresh sweep. New tell for the catalog: **fake-profound closers** —
+  endings that reach for unearned profundity ("The future isn't coming. It's already
+  here."), named in Peter Yang's open-source no-ai-slop skill (2026-07-22, ~20
+  patterns; two independent write-ups). The same source set confirms "binary contrasts"
+  (our negative parallelism) and "throat-clearing openers" as the most-recognized
+  tells. Context shift worth tracking: Substack now runs Pangram AI-detection natively,
+  and Pangram measures 41% of LinkedIn longform as fully AI-generated — folk-detector
+  scrutiny is rising, which strengthens the reverse-direction rule (write for "would a
+  human say this," not for detectors).
 - **2026-07-08** — Fresh sweep (first pilot REVIEW). New density tells: **uniform
   rhythm / low burstiness** and **transition-word stacking**. Supporting stat for the
   posture file: 52% of consumers stop reading on suspecting AI (Bynder, via 2026 tell

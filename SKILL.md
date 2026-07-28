@@ -21,8 +21,7 @@ session skill list by design. Cross-references inside pack skills ("see copy-edi
 resolve the same way. Update the pack with `git -C ~/.claude/marketing-pack pull`.
 
 Every pack skill expects a per-project context doc at `.agents/product-marketing.md`
-(committed to the project repo). Keep that convention; the project's memory file links
-to it.
+(committed to the project repo). Keep that convention; the project's memory file links to it.
 
 ## First: pick a mode and say so
 
@@ -46,8 +45,8 @@ Load pack `product-marketing` (auto-draft from the repo, then let the user corre
 not interview from scratch when the codebase can answer). Also establish **which
 channels apply to this project** (SEO/AI-search, email, social, paid, PR — ask, don't
 assume), and run the **voice & stance interview** — three questions the codebase can't
-answer, asked fresh every project (pilot lesson: these can't be predicted, and guessed
-defaults die at REVIEW):
+answer, asked fresh every project (pilot lesson: these can't be predicted, and
+guessed defaults die at REVIEW):
 1. **Whose voice?** The founder's personal voice, the product/brand's, or the
    discipline/practice observing the space?
 2. **Audience's relationship to the problem:** do they already live it (name it
@@ -76,8 +75,8 @@ spanning quarters, pack `marketing-plan`. Check the AI-backlash posture in
 [research-playbook.md](research-playbook.md) — sounding human is a positioning decision,
 not a style note. **Artifact:** creative brief (audience, angle, channels, message
 hierarchy, success measure) **plus a sample paragraph in the intended voice** — an
-angle can pass conceptually and die at REVIEW on texture (voice, citations,
-imperatives). **Gate:** the user approves the angle *and* the texture.
+angle can pass conceptually and die at REVIEW on texture (voice,
+citations, imperatives). **Gate:** the user approves the angle *and* the texture.
 
 ### 4. CRAFT — write like a person who means it
 Load the right pack skill per asset: `copywriting` (pages), `emails` / `cold-email`,
@@ -103,11 +102,11 @@ Four checks, in order:
 
 ### 6. SHIP — published and verified
 Web copy is a code change: hand it to your engineering pipeline and deploy gate —
-mobile breakpoints first, display lines checked for wraps. Email/social/PR assets ship
-on their channel only after the user sends or approves sending. Every shipped asset
-gets a one-line measurement note (what signal tells us it worked, checked when).
-**Artifact:** live asset + `log.md` entry. **Gate:** published and verified, nothing
-stray in repo root or home.
+mobile breakpoints first, display lines checked for wraps.
+Email/social/PR assets ship on their channel only after the user sends or approves
+sending. Every shipped asset gets a one-line measurement note (what signal tells us it
+worked, checked when). **Artifact:** live asset + `log.md` entry. **Gate:** published
+and verified, nothing stray in repo root or home.
 
 ### 7. RETRO — optional, cheap
 One question: did anything ship that, re-read cold a day later, smells like AI? Encode
