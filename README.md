@@ -42,6 +42,9 @@ Same shape, same gate discipline, built to hand work to each other:
 - **[/uxr](https://github.com/laltaffer/claude-uxr-skill)** — the research pipeline.
   It owns evidence-for-product-decisions; /cmo RESEARCH owns voice-of-customer for
   copy, and the venue table here is the one both use.
+- **[/pm-lead](https://github.com/laltaffer/pm-lead)** — the product pipeline. It owns
+  what gets built and why; hand it product truth and it hands back the positioning
+  this pipeline turns into copy.
 
 ## Customize
 
