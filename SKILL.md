@@ -153,7 +153,7 @@ real answers into voice-and-tropes.md (dated) or as feedback memories. Skip free
   license to generate a content calendar nobody requested.
 - **Client money is a separate gate.** OPERATE is the only stage that spends someone
   else's budget continuously, and it's the only place a gate can't be cleared by anyone
-  in this conversation. the user's approval moves the engagement; it does not authorize
+  in this conversation. The user's approval moves the engagement; it does not authorize
   a change to a live account. Red-tier actions in [operate.md](operate.md) need written
   authorization from someone at the client who can approve spend, every time, and absent
   an explicit tier agreement everything is Yellow.
