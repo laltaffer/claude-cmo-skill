@@ -103,6 +103,10 @@ rules that belong (edit these to yours):
 
 ## Changelog
 
+- **2026-08-26** — Fresh sweep. New tells: **"quietly" as a tell word** (UWA study
+  Aug 2026 + an independent design-catalog ban on "Quietly in use at" headers) and
+  **equal-treatment symmetry** — sections of near-identical length, pros/cons in
+  perfect balance (GPTZero "AI Patterns" + a 2026 spotting guide).
 - **2026-07-26** — Fresh sweep. New tell for the catalog: **fake-profound closers** —
   endings that reach for unearned profundity ("The future isn't coming. It's already
   here."), named in Peter Yang's open-source no-ai-slop skill (2026-07-22, ~20

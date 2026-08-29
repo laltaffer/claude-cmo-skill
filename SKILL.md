@@ -37,6 +37,11 @@ State the mode in your first reply. The user can override with one word.
 - **audit** — existing copy or marketing under review. Apply the REVIEW stage **in
   full — all four checks** — to what's already live. Findings fixed or explicitly
   deferred; no rewrite beyond the findings without asking.
+- **engagement** — an existing business as a client, not a 0→1 project. Open with the
+  constraint grill in [operate.md](operate.md): find where the business is actually
+  constrained, then let evidence decide which stages this engagement needs. No stage is
+  skipped or run by default — deciding that in advance is how you either bill them to
+  rediscover what they know or build on a belief they can't support. Ends in OPERATE.
 
 ## The stages (full mode)
 
@@ -108,7 +113,20 @@ sending. Every shipped asset gets a one-line measurement note (what signal tells
 worked, checked when). **Artifact:** live asset + `log.md` entry. **Gate:** published
 and verified, nothing stray in repo root or home.
 
-### 7. RETRO — optional, cheap
+A live ad account does not stop here. It has no ship date, only an operating loop that
+bills the client daily — hand it to OPERATE.
+
+### 7. OPERATE — the account keeps spending after you ship
+Live ad accounts, and anything else that costs money after launch. Load
+[operate.md](operate.md) and run its loop: constraint grill → scoped plan → baseline
+audit → authority tiers → derived cadence → one-page reports that each end in a
+decision. The pack `ads` references own every threshold and platform fact; operate.md
+owns the engagement — intake, authority, cadence, reporting, exit. **Artifact:**
+standing engagement record + append-only change log. **Gate:** constraint diagnosis and
+scoped plan approved before account access; Red-tier actions need written client
+authorization every time.
+
+### 8. RETRO — optional, cheap
 One question: did anything ship that, re-read cold a day later, smells like AI? Encode
 real answers into voice-and-tropes.md (dated) or as feedback memories. Skip freely.
 

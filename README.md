@@ -1,10 +1,11 @@
 # /cmo — a gated marketing pipeline skill for Claude Code
 
 A Claude Code skill that runs marketing work through a gated pipeline so nothing ships
-sounding like a machine: CONTEXT → RESEARCH → STRATEGY → CRAFT → REVIEW → SHIP → RETRO.
-Every stage produces a named artifact and stops at a gate for your judgment. Three
-modes: **full** (new project / launch / repositioning), **fast** (single asset),
-**audit** (review existing copy).
+sounding like a machine: CONTEXT → RESEARCH → STRATEGY → CRAFT → REVIEW → SHIP →
+OPERATE → RETRO. Every stage produces a named artifact and stops at a gate for your
+judgment. Four modes: **full** (new project / launch / repositioning), **fast** (single
+asset), **audit** (review existing copy), **engagement** (an existing business as a
+client).
 
 What makes it different from a pile of marketing prompts:
 
@@ -17,6 +18,18 @@ What makes it different from a pile of marketing prompts:
   die in review.
 - **Research routing** (`research-playbook.md`) — where the voice of each audience type
   actually lives, and the 2026 AI-backlash data as strategy posture, not style notes.
+- **An OPERATE stage** (`operate.md`) for work that keeps costing money after it
+  ships — live ad accounts. Constraint grill before account access (is paid even the
+  answer, or is the constraint downstream of the click?), Green/Yellow/Red authority
+  tiers agreed in writing before touching a live account, review cadence *derived* from
+  the account's own conversion volume and lag rather than promised in the proposal, and
+  reports that end in a decision instead of re-rendering charts the client can already
+  export.
+- **Evidence-determined scope** in `engagement` mode — for an existing business no
+  stage is skipped or run by default. Deciding in advance either bills them to
+  rediscover what they already know, or builds on a confident belief they can't
+  support. The grill settles it per stage, and every inclusion *and* exclusion is
+  written down with its reason.
 - **Never fabricate** — verbatim customer quotes carry a source or they don't ship.
 
 ## Install
