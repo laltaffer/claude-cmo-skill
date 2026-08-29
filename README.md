@@ -2,10 +2,10 @@
 
 A Claude Code skill that runs marketing work through a gated pipeline so nothing ships
 sounding like a machine: CONTEXT → RESEARCH → STRATEGY → CRAFT → REVIEW → SHIP →
-OPERATE → RETRO. Every stage produces a named artifact and stops at a gate for your
-judgment. Four modes: **full** (new project / launch / repositioning), **fast** (single
-asset), **audit** (review existing copy), **engagement** (an existing business as a
-client).
+RETRO, plus a conditional **OPERATE** stage for work that keeps spending money after
+launch. Every stage produces a named artifact and stops at a gate for your judgment.
+Four modes: **full** (new project / launch / repositioning), **fast** (single asset),
+**audit** (review existing copy), **engagement** (an existing business as a client).
 
 What makes it different from a pile of marketing prompts:
 

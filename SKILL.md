@@ -1,6 +1,6 @@
 ---
 name: cmo
-description: DEFAULT ENTRY POINT for marketing work — positioning, messaging, page copy, launches, campaigns, audience research, SEO/AI-search, email, social, or ads for any project. Runs a gated context→research→strategy→craft→review→ship pipeline with an anti-AI-slop review gate. Use for "write copy for X", "how do we market Y", "launch Z", "does this sound like AI?". For building the pages themselves use an engineering pipeline; for visual design use a design skill.
+description: DEFAULT ENTRY POINT for marketing work — positioning, messaging, page copy, launches, campaigns, audience research, SEO/AI-search, email, social, or paid ads for any project, including operating a client's live ad account. Runs a gated context→research→strategy→craft→review→ship→operate pipeline with an anti-AI-slop review gate. Use for "write copy for X", "how do we market Y", "launch Z", "does this sound like AI?", "audit this Google Ads account", "should this client be running ads", "what do we report to the client this month". For building the pages themselves use an engineering pipeline; for visual design use a design skill.
 ---
 
 # CMO — Marketing Pipeline
@@ -28,7 +28,7 @@ Every pack skill expects a per-project context doc at `.agents/product-marketing
 State the mode in your first reply. The user can override with one word.
 
 - **full** — new project or brand, first campaign, a launch, or repositioning.
-  All stages.
+  Stages 1–6 and 8; OPERATE only if it leaves behind something that keeps spending.
 - **fast** — single asset (a page's copy, an email, a post, an announcement) for a
   project that already has `.agents/product-marketing.md`. Confirm the context doc is
   current **and a research brief exists** under the project's `docs/` — if there's no
@@ -43,7 +43,13 @@ State the mode in your first reply. The user can override with one word.
   skipped or run by default — deciding that in advance is how you either bill them to
   rediscover what they know or build on a belief they can't support. Ends in OPERATE.
 
-## The stages (full mode)
+## The stages
+
+Full mode runs 1–6 and 8. **OPERATE (7) is conditional** — it runs whenever the work
+leaves behind something that keeps spending money after launch, and it is where
+`engagement` mode both starts and ends: that mode enters at OPERATE's constraint grill
+to decide which of stages 1–6 this client actually needs, runs the ones that survive
+scoping, then returns to the OPERATE loop and stays there.
 
 ### 1. CONTEXT — who is this for and what are we saying?
 Load pack `product-marketing` (auto-draft from the repo, then let the user correct — do
@@ -145,3 +151,9 @@ real answers into voice-and-tropes.md (dated) or as feedback memories. Skip free
   belongs to your engineering pipeline; visual design to your design skills.
 - **Minimum scope.** One asset asked for = one asset delivered. The pipeline is not a
   license to generate a content calendar nobody requested.
+- **Client money is a separate gate.** OPERATE is the only stage that spends someone
+  else's budget continuously, and it's the only place a gate can't be cleared by anyone
+  in this conversation. the user's approval moves the engagement; it does not authorize
+  a change to a live account. Red-tier actions in [operate.md](operate.md) need written
+  authorization from someone at the client who can approve spend, every time, and absent
+  an explicit tier agreement everything is Yellow.
