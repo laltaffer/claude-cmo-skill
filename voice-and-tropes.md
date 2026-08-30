@@ -100,6 +100,16 @@ rules that belong (edit these to yours):
 - **Voice, proof, and stance are per-project decisions, never defaults** — they come
   from the CONTEXT stage's voice & stance interview and live in that project's
   `.agents/product-marketing.md`, not here.
+- **No adversary in the lead.** Copy never opens on the vendor, the hype, the
+  competitor, or on what someone did to the reader. Name what the thing *is*, positively
+  and concretely, and let the antagonist stay implied. Watch for this in the *angle*,
+  not only the sentence: an angle whose first beat is "you've been sold X" reproduces the
+  fear lead no matter how the paragraph is rewritten.
+- **No deficit-framing of the reader's current state.** Never "barely using", "failing
+  to", "wasting", "you're behind", "most people get this wrong". Describe their situation
+  as an opportunity or leave it unsaid — "you've probably been using AI already and we'll
+  help you get the most out of it", not "you bought a tool you barely use". The reader
+  is not the problem in the story.
 
 ## Changelog
 
