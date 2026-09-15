@@ -113,6 +113,23 @@ rules that belong (edit these to yours):
 
 ## Changelog
 
+- **2026-08-31** — Fresh sweep. **Real find, and it corrects one of ours.** The
+  Economist ran the largest controlled comparison yet — 1.2M words / 55,940 sentences,
+  ChatGPT + Claude + Gemini + Grok rewriting its own articles, scored against its prose,
+  other journalism, and novels 1950–2022 (reported 2026-08-11; two independent
+  write-ups). Four new tells, all **mechanical and countable**: **punctuation scarcity**
+  (LLMs use fewer commas and semicolons than humans, and hardly any parentheses);
+  **"and" overuse** (their most overused word, gluing clauses into long sentences);
+  **Latinate-suffix density** — Orwell's "pretentious diction," simple ideas in
+  complicated language, which generalises the delve-class wordlist into a measure that
+  survives model-era vocabulary drift; and **never quoting anyone**. Changelog only,
+  no catalog promotion — first sighting.
+  **This retires a calibration number.** Most models use *fewer* em dashes than human
+  writers; ChatGPT "markedly fewer"; **Claude is the only one that uses more.** So
+  em-dash density is a **model-specific** tell, not a universal one — check it against
+  whichever model is holding the pen, and scrub to correct that model's known bias
+  rather than to appease a detector. The catalog rule ("several per paragraph") is
+  unchanged.
 - **2026-08-26** — Fresh sweep. New tells: **"quietly" as a tell word** (UWA study
   Aug 2026 + an independent design-catalog ban on "Quietly in use at" headers) and
   **equal-treatment symmetry** — sections of near-identical length, pros/cons in

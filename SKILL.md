@@ -10,7 +10,8 @@ Every stage produces a named artifact and passes a gate before the next stage st
 You are the orchestrator: load the exact pack skill for each stage by path (never
 trigger-matching), keep gates open for the user's judgment calls, and treat the
 anti-slop discipline in [voice-and-tropes.md](voice-and-tropes.md) as identity, not
-proofreading.
+proofreading. Writing runs from a brief; review is a standalone checklist,
+[review.md](review.md), that runs on any copy, drafted or live.
 
 ## The pack
 
@@ -31,12 +32,14 @@ State the mode in your first reply. The user can override with one word.
   Stages 1–6 and 8; OPERATE only if it leaves behind something that keeps spending.
 - **fast** — single asset (a page's copy, an email, a post, an announcement) for a
   project that already has `.agents/product-marketing.md`. Confirm the context doc is
-  current **and a research brief exists** under the project's `docs/` — if there's no
-  brief, drop back to RESEARCH scoped to the asset before writing. Then CRAFT →
-  REVIEW → SHIP.
-- **audit** — existing copy or marketing under review. Apply the REVIEW stage **in
-  full — all four checks** — to what's already live. Findings fixed or explicitly
-  deferred; no rewrite beyond the findings without asking.
+  current by spot-checking its verbatim customer language and proof points against
+  the live site (a stale entry is a finding to fix in the doc, never copy to reuse),
+  **and that a research brief exists** under the project's `docs/` — if there's no
+  brief, drop back to RESEARCH scoped to the asset before writing. Then BRIEF →
+  WRITE → REVIEW → SHIP.
+- **audit** — existing copy or marketing under review. Run [review.md](review.md)
+  **in full** on what's already live. Findings fixed or explicitly deferred; no
+  rewrite beyond the findings without asking.
 - **engagement** — an existing business as a client, not a 0→1 project. Open with the
   constraint grill in [operate.md](operate.md): find where the business is actually
   constrained, then let evidence decide which stages this engagement needs. No stage is
@@ -89,27 +92,36 @@ hierarchy, success measure) **plus a sample paragraph in the intended voice** �
 angle can pass conceptually and die at REVIEW on texture (voice,
 citations, imperatives). **Gate:** the user approves the angle *and* the texture.
 
-### 4. CRAFT — write like a person who means it
-Load the right pack skill per asset: `copywriting` (pages), `emails` / `cold-email`,
-`social`, `launch`, `ads` / `ad-creative`, `seo-audit` / `ai-seo` / `content-strategy`,
-`public-relations` — others in the pack as needed. Apply
-[voice-and-tropes.md](voice-and-tropes.md) **while writing**, not as a cleanup pass.
-Specificity from the research brief beats every stylistic trick. **Artifact:** drafts.
-**Gate:** none — CRAFT flows into REVIEW.
+### 4. BRIEF, then WRITE — constraints first, then a person who means it
+Write the copy brief before the draft, one page: the audience and the moment they meet
+this asset (the query they typed, the inbox, the feed); the angle and message hierarchy
+from STRATEGY or the creative brief; the must-say facts, each with its source; the
+verbatim customer language to reuse; the banned territory (the context doc's words to
+avoid, the hard bans, anything the user has rejected on this project); the format (the
+template's blocks, the channel's lengths, the one CTA and its exact label); and what
+done means. State the brief in the reply so the user can redirect it in one line. Then
+write from it. Load the pack skill for the asset type by path for the channel's
+mechanics and formats: `copywriting` (pages), `emails` / `cold-email`, `social`,
+`launch`, `ads` / `ad-creative`, `seo-audit` / `ai-seo` / `content-strategy`,
+`public-relations`, others as needed. The brief, not the pack skill, carries what the
+copy must say. Apply [voice-and-tropes.md](voice-and-tropes.md) **while writing**, not
+as a cleanup pass. Specificity from the research brief beats every stylistic trick.
+**Artifact:** brief + draft. **Gate:** none — WRITE flows into REVIEW.
+
+This order is measured, not assumed. In the 2026-09-15 ablation, three drafts of one
+landing page (a bare model with a one-page brief, the loaded stack without this
+pipeline, and this pipeline) came out with the same skeleton, CTA, and testimonials;
+brief specificity and the review checks separated them, the stage choreography did not.
 
 ### 5. REVIEW — the anti-slop gate
-Four checks, in order:
-1. **Seven sweeps** — load pack `copy-editing` and run its passes.
-2. **Trope scan** — every entry in [voice-and-tropes.md](voice-and-tropes.md) against
-   the draft. Hard-ban hits are rewrites, not judgment calls.
-3. **Fresh sweep** — run [fresh-sweep.md](fresh-sweep.md): re-check the living catalogs
-   and current chatter for tells that emerged since the file was last updated; append
-   dated finds.
-4. **Read-aloud test** — would a specific, named human say this sentence out loud to a
-   customer? If you can't hear a person saying it, rewrite it.
+Run [review.md](review.md): the mechanical checks, fact sourcing in both directions,
+the trope scan, the seven sweeps, the fresh sweep, and the read-aloud test, then
+judgment labeled as judgment. The review reports; this stage applies. Verdict line
+first.
 
-**Artifact:** findings list, each fixed or explicitly deferred with a reason.
-**Gate:** zero unaddressed trope hits, plus the user's taste pass.
+**Artifact:** findings list, each fixed or explicitly deferred with a reason, with the
+mechanical checks re-run after the fixes.
+**Gate:** zero unaddressed hard-ban hits or unsourced facts, plus the user's taste pass.
 
 ### 6. SHIP — published and verified
 Web copy is a code change: hand it to your engineering pipeline and deploy gate —

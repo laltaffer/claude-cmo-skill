@@ -1,18 +1,21 @@
 # /cmo — a gated marketing pipeline skill for Claude Code
 
 A Claude Code skill that runs marketing work through a gated pipeline so nothing ships
-sounding like a machine: CONTEXT → RESEARCH → STRATEGY → CRAFT → REVIEW → SHIP →
-RETRO, plus a conditional **OPERATE** stage for work that keeps spending money after
+sounding like a machine: CONTEXT → RESEARCH → STRATEGY → BRIEF → WRITE → REVIEW →
+SHIP → RETRO, plus a conditional **OPERATE** stage for work that keeps spending money after
 launch. Every stage produces a named artifact and stops at a gate for your judgment.
 Four modes: **full** (new project / launch / repositioning), **fast** (single asset),
 **audit** (review existing copy), **engagement** (an existing business as a client).
 
 What makes it different from a pile of marketing prompts:
 
-- **An anti-slop review gate** — every draft is scanned against a maintained catalog of
-  AI writing tells (`voice-and-tropes.md`), plus a **fresh sweep** protocol
-  (`fresh-sweep.md`) that re-checks the living catalogs and current chatter at every
-  review, because AI tells shift with every model generation.
+- **A standalone review pass** (`review.md`) — evidence first, judgment labeled after.
+  Mechanical counts run as commands, every quote and number traced to a source, the
+  trope scan against a maintained catalog of AI writing tells (`voice-and-tropes.md`),
+  the seven editing sweeps, and a **fresh sweep** protocol (`fresh-sweep.md`) that
+  re-checks the living catalogs and current chatter at every review, because AI tells
+  shift with every model generation. It runs on any copy, drafted or live, whether or
+  not it came through the pipeline; writing runs from a one-page brief first.
 - **A voice & stance interview** at CONTEXT — whose voice, does the audience already
   live the problem, gift or sale — because these can't be guessed and wrong defaults
   die in review.
