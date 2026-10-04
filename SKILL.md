@@ -1,6 +1,7 @@
 ---
 name: cmo
-description: DEFAULT ENTRY POINT for marketing work — positioning, messaging, page copy, launches, campaigns, audience research, SEO/AI-search, email, social, or paid ads for any project, including operating a client's live ad account. Runs a gated context→research→strategy→craft→review→ship→operate pipeline with an anti-AI-slop review gate. Use for "write copy for X", "how do we market Y", "launch Z", "does this sound like AI?", "audit this Google Ads account", "should this client be running ads", "what do we report to the client this month". For building the pages themselves use an engineering pipeline; for visual design use a design skill.
+description: Marketing pipeline (context, research, strategy, craft, review, ship, operate) for positioning, copy, launches, campaigns, SEO and AI search, email, social, and paid ads, including operating a live ad account. User-invoked only; type /cmo.
+disable-model-invocation: true
 ---
 
 # CMO — Marketing Pipeline
@@ -12,6 +13,7 @@ trigger-matching), keep gates open for the user's judgment calls, and treat the
 anti-slop discipline in [voice-and-tropes.md](voice-and-tropes.md) as identity, not
 proofreading. Writing runs from a brief; review is a standalone checklist,
 [review.md](review.md), that runs on any copy, drafted or live.
+
 
 ## The pack
 

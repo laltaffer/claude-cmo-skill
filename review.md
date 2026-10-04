@@ -36,6 +36,24 @@ snapshot and say so.
   channel carries the limits.
 - Display lines: word count per headline line. Whether a line wraps at 390px is the
   design review's finding to confirm; flag the risk here.
+- The deterministic prose lint, run as a command and reported as counts by rule:
+
+  ```
+  npx -y slopless <file.md>
+  ```
+
+  Output is textlint JSON (one object per file, `messages[]` with `ruleId`, `line`,
+  `message`); exit 1 means findings, 0 means none. Its rule families (phrases,
+  syntactic patterns, words, semantic thinness, metrics, orthography) overlap the
+  baseline's Ban tiers, so a hit is a finding with a line number, not a verdict. Known
+  false positives, measured 2026-10-04: words quoted or mentioned in a review note
+  ("leverage is delve-class") trip the prohibited-words rule; the approved live copy of
+  a four-page site returned zero findings. The tool reports; it never edits. The npm
+  build of `slop-lint` printed nothing on the same input; its GitHub build
+  (`npx -y github:eric-sabe/slop-lint <file>`) works and hard-fails on any em dash,
+  which double-counts the dash check above, so use it only when a CI-style exit code on
+  dashes is wanted. Classifiers (Pangram, GPTZero and the like) are advisory, never a
+  gate: they miss 10 to 29% of style-imitated text (Epoch AI, 2026-07).
 
 **2. Fact sourcing, both directions.** Every quote, attribution, name, credential,
 number, price, place, phone number, URL, and claim of fact, traced to one of: the live

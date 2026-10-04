@@ -1,68 +1,78 @@
-# Voice & Tropes — the anti-slop discipline
+# Voice & Tropes: the anti-slop discipline
 
-Applied during CRAFT (while writing) and enforced at REVIEW (trope scan). This is a
-**living file**: fresh sweeps append dated entries to the changelog at the bottom and
-promote recurring finds into the catalog. Distilled 2026-07 from tropes.fyi,
-Wikipedia's "Signs of AI writing," and 2026 consumer-sentiment research.
+Applied during CRAFT (while writing) and enforced at REVIEW (trope scan). The test
+underneath every rule: **would a specific, named human say this out loud to a customer?**
+AI tells are what is left when nobody in particular is talking. The goal is not passing a
+detector; it is writing that could only have come from someone who knows this product and
+this audience.
 
-The test underneath every rule: **would a specific, named human say this out loud to a
-customer?** AI tells are what's left when nobody in particular is talking. The goal is
-not passing a detector — it's writing that could only have come from someone who knows
-this product, this audience, and gives a damn.
+## The baseline lives in the pack
 
-## Hard bans — any hit is a rewrite
+The static catalog is `~/.claude/marketing-pack/skills/copywriting/references/ai-tells.md`:
+13 structural patterns with Ban and Cap tiers, the opener and closer table, the marketing
+phrase table, the vocabulary lists, rewrite rules, and a self-check. Read it at CRAFT and
+at REVIEW step 3; its Cap tiers are countable, which is what review.md asks for. Nothing in
+it is repeated here. (Reconciled 2026-10-04 when the pack absorbed the catalog this file
+used to carry; see the changelog.)
 
-**Words (delve-class vocabulary):** delve, leverage (as verb), robust, seamless,
-streamline, harness, elevate, unlock, unleash, supercharge, empower, effortless,
-game-changing, cutting-edge, revolutionize, transformative, tapestry, landscape (for
-abstractions), realm, journey (for product use), "in today's fast-paced world."
+This file holds what the baseline does not: the dated living layer below, the owner's
+taste, and the fingerprint of the model holding the pen.
 
-**Sentence patterns:**
-- Negative parallelism: "It's not X — it's Y." / "It's not just an X. It's a Y." The
-  single most-recognized AI tell. Also the stacked form: "Not X. Not Y. Just Z."
-- Self-posed question flips: "The result? A better workflow."
-- "Imagine a world where…" / "Picture this:" openers.
-- "Let's dive in / unpack / explore / break this down" — pedagogical throat-clearing.
-- "Think of it as…" — patronizing analogy reflex.
-- "Here's the kicker / the thing / where it gets interesting" — false suspense.
-- "It's worth noting that…" / "That said," as filler transitions.
-- "Whether you're a X, a Y, or a Z…" — the audience triple that names no one.
+## Living layer: tells the baseline does not carry
 
-**Marketing boilerplate:**
-- "We're excited/thrilled to announce…" launch openers.
-- "Get Started Today" as the default CTA everywhere.
-- Exclamation points in body copy. Emoji clusters (🚀✨💡) in headlines or CTAs.
-- Fake urgency or scarcity; invented testimonials, statistics, or review quotes —
-  these are integrity failures, not style failures.
+Promoted entries are rewrites or findings like any baseline entry. Watch entries need a
+second independent source before they count.
 
-## Density tells — fine once, slop in a pattern
+- **Launch boilerplate** (promoted 2026-07-07): "We're excited/thrilled to announce",
+  "Get Started Today" as the default CTA everywhere. Say what shipped and what to do.
+- **Integrity failures, not style** (promoted 2026-07-07): fake urgency or scarcity;
+  invented testimonials, statistics, or review quotes. Any hit blocks shipping.
+- **Anaphora** (promoted 2026-07-07): three or more consecutive sentences opening
+  identically. Vary the opener or merge the sentences.
+- **Fractal summaries** (promoted 2026-07-07; tropes.fyi marks it rising, 2026-10-04):
+  intro that previews, sections that recap, a close that restates. On a marketing page:
+  the same value prop rephrased in hero, subhead, and CTA band with no new information.
+  Each block carries a fact the others do not.
+- **Equal-treatment symmetry** (promoted 2026-08-26, two sources; re-confirmed 08-29):
+  every section or factor gets a paragraph of near-identical length, pros and cons in
+  perfect balance. Give each point the length its evidence earns.
+- **Superficial analysis without evidence** (watch, 2026-09-02): a sentence with the
+  shape of insight that asserts a mechanism and supplies nothing behind it. Test: if a
+  sentence explains why something is true, the next clause earns it or the sentence goes.
+- **Advertising register in place of neutral** (watch, 2026-09-02): travel-guide diction
+  ("nestled", "vibrant") standing in for description.
+- **Hollow-empathy openers** (watch, 2026-08-29): "As a business owner, you know..."
+  followed by a generic problem.
+- **Dramatic-comparative flourish** (watch, 2026-08-26): "better than a prompt ever
+  could", "like nothing else can" at the end of a mechanism description. End the sentence
+  where the mechanism ends.
+- **A rejected cadence reappears carrying different content** (category, 2026-09-02):
+  scrub the rhythm the owner rejected, not just the words that carried it.
+- **Mechanical markers from the Economist study** (single study, 2026-08-31, still not
+  promoted as of 2026-10-04): punctuation scarcity, "and" overuse, Latinate-suffix
+  density, never quoting anyone. Count them when a draft feels flat; see the changelog for
+  why they stay unpromoted.
 
-These are legitimate tools that read as AI at high frequency. Flag when the pattern
-repeats, not on first use:
-- **Em-dash addiction** — several per paragraph, or every pivot leaning on one.
-- **Rule-of-three abuse** — every list, headline, and benefit set shaped as a triple.
-  Uniformity is the tell: three cards, three words each, identical rhythm.
-- **Bold-first bullets** — every list item opening with a bolded phrase.
-- **Short punchy fragments. Everywhere. For emphasis.** — one-line paragraphs as a
-  default rhythm rather than a deliberate hit.
-- **Anaphora** — three+ consecutive sentences opening identically.
-- **"Serves as / stands as / boasts"** — copula-dodging; just say "is."
-- **Fractal summaries** — intro that previews, sections that recap, a conclusion that
-  restates. Marketing pages: the same value prop rephrased in hero, subhead, and CTA
-  band with no new information added.
-- **Signposted endings** — "In conclusion," "To sum up," "At the end of the day."
-- **Title Case On Every Heading** — sentence case reads more human in 2026.
-- **Vague attributions** — "experts agree," "studies show," "industry reports" with no
-  named source. Either cite it or cut it.
-- **False ranges** — "from startups to enterprises" when the items aren't a spectrum.
-- **Grandiose stakes** — every feature framed as pivotal, revolutionary, a paradigm.
-  If the copy can't earn the claim with a specific, shrink the claim.
-- **Uniform rhythm / low burstiness** — sentence length and structure barely vary,
-  producing a monotonous cadence readers now name explicitly.
-- **Transition-word stacking** — "furthermore," "moreover," "additionally" as
-  paragraph glue.
-- **Fake-profound closers** — endings reaching for unearned profundity ("The future
-  isn't coming. It's already here.").
+## The model holding the pen
+
+Tells are per model, not one AI voice (Graphite, 2026-09-16, 10k human and 90k AI
+articles across nine models: 65% of tells are unique to one model family; Rudnicka and
+Juzek, arXiv 2608.06589, call it idiolect). So the scrub list depends on which model
+drafted. Record the pen in the copy brief and refresh this section when it changes.
+
+| Pen | Fingerprint | Source |
+|---|---|---|
+| **Fable 5.1** (this pipeline's pen since 2026-10) | No published fingerprint yet. Until one exists, count the Opus 5.5 phrases below in every draft and record the per-1,000-word em-dash rate in the review; promote whatever recurs | Own measurement |
+| Claude Opus 5.5 | "dependable" 23x human rate, "this matters" 116x, "why X matters" 92x, "more than an X, it's a Y" still common; em dashes 99% below Opus 5 | TechCrunch, Russell Brandom, 2026-10-01, on Graphite's follow-up |
+| Claude Opus 5 | "less like a _ and more like" 105x, "rather than merely" 160x, "matters because" 132x; em dashes at the human rate | Graphite, 2026-09-16 |
+| GPT-6 Astra | "the _ is not simply" 576x, "not simply" 157x, "another dimension" 117x, hedges "may provide" and "can provide"; em dashes 88% below human | Graphite, 2026-09-16 |
+| Gemini 3.1 Pro | "is not just a _ it is" 153x, "incredibly", "furthermore"; em dashes near zero | Graphite, 2026-09-16 |
+
+Shared across models: contrast framing, corrective phrasing ("rather than", "not just",
+"not simply"), hedging. Humans use first person and exclamation marks far more than any
+model. The em-dash rule for this pipeline is now house style (the global instruction bans
+them in anything written for the owner), not a correction of a measured Claude bias: the
+08-31 finding was about Opus 5, and the pen has changed twice since.
 
 ## Visual slop (flag and route, don't fix here)
 
@@ -112,6 +122,39 @@ rules that belong (edit these to yours):
   is not the problem in the story.
 
 ## Changelog
+
+- **2026-10-04** Fresh sweep (pack reconciliation, no draft in hand). **Catalog moved.**
+  The pack's copywriting 2.1.0 shipped `references/ai-tells.md`, which carries every Hard
+  ban and Density tell this file listed, with Ban and Cap tiers. This file's catalog
+  sections were removed and the entries the baseline lacks were lifted into the living
+  layer above. **Per-model fingerprints**, verified by fetch: Graphite (2026-09-16) and
+  TechCrunch (2026-10-01) as tabled in the pen section. The pen is Fable 5.1 and has no
+  published fingerprint; the Opus 5.5 phrases are the proxy until measured. **tropes.fyi
+  now flags status** (fetched 2026-10-04, 63 tropes): new (reasoning leak, premise
+  stacking, compulsive counting, self-echo, synonym cycling, comma-clipped trailing
+  phrase, never-ending conclusion, promotional language, "Where / What / Why" headers,
+  among 16), rising (short punchy fragments, grandiose stakes, invented concept labels,
+  fractal summaries, excessive enumeration), consistent (negative parallelism, em-dash
+  addiction, "quietly", vague attributions, rule of three, "Not X. Not Y. Just Z.", title
+  case, signposted conclusion), fading ("The X? A Y.", anaphora, bold-first bullets,
+  "Think of it as", "Imagine a world", false ranges, "serves as", "delve" and friends,
+  "It's worth noting", "Let's break this down"). Page carries no dates; fresh-sweep.md
+  step 1 now reads the flags. **Wikipedia** (fetched 2026-10-04): "delve" dropped sharply
+  in 2025; the mid-2025-onward vocabulary is "emphasizing, enhance, highlighting,
+  showcasing"; the "no ..., no ..., just ..." form is documented. **LinkedIn** (May 2026,
+  secondary write-ups only, thenextweb and magicpost; primary announcement not fetched):
+  formulaic AI posts are suppressed from recommendations, with "it's not X, it's Y" named
+  as the example; one tracker puts the reach penalty near 5%. **Economist tells not
+  promoted.** The audit proposed Graphite and Poynter as the second source for
+  punctuation scarcity, "and" overuse, Latinate density, and never quoting anyone.
+  Checked: Poynter (Matthew Crowley, 2026-09-28) cites the Economist only for the Claude
+  em-dash rate and names negative parallelism, waffle ("it can be argued that"), and
+  overabundant lists; Graphite reports first person and exclamation marks as the human
+  markers, not punctuation scarcity or "and". Fast Company and The Conversation (09-02
+  entry) are write-ups of the same study. One study with four write-ups is one source.
+  The four stay in the living layer as count-when-flat markers. **Reverse direction:**
+  Poynter's editors warn that stripping em dashes to pre-empt suspicion lowers quality;
+  Opus 5.5 and Astra barely use them. The scrub here is house style, not detection.
 
 - **2026-08-31** — Fresh sweep. **Real find, and it corrects one of ours.** The
   Economist ran the largest controlled comparison yet — 1.2M words / 55,940 sentences,

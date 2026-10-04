@@ -190,7 +190,14 @@ then cancelled.** If a cycle genuinely produced no decision, say that in two sen
 and skip the report — that's a better client experience than manufacturing pages.
 
 Apply `audit-guardrails.md` benchmark discipline to every number you quote: label
-provenance, check cohort fit, never blend attribution windows without saying so.
+provenance, check cohort fit, never blend attribution windows without saying so. Before
+reading any Google Ads number into a report, load the pack's
+`ads/references/reading-google-ads-data.md`: search terms are a sample (state disclosed
+clicks over total), "conversions" is several columns, learning-phase bid strategies are
+unreadable, change history runs out at 30 and 90 days, and every finding carries
+Verified, Inferred, or Stale with its date. Report brand and non-brand blended, optimize
+on non-brand, and never report a low brand CPA as a win.
+
 
 ---
 
